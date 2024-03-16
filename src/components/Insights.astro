@@ -1,0 +1,35 @@
+---
+import { Icon } from "astro-icon/components";
+
+const insights = [
+  {
+    icon: "pills-solid",
+    value: "+10",
+    description: "productos en el mercado",
+  },
+  {
+    icon: "people-group-solid",
+    value: "+11",
+    description: "anios de trayectoria profesional",
+  },
+  {
+    icon: "vial-circle-check-solid",
+    value: "+10",
+    description: "materias primas saludables",
+  },
+];
+---
+
+<div class="bg-blue-800 text-white flex justify-around p-4 mx-20 rounded-3xl">
+  {
+    insights.map((item) => (
+      <div class="flex flex-col text-center items-center p-4 w-48">
+        <Icon name={item.icon} class="size-20" />
+        <p class="text-amber-300 font-[consolas] font-bold text-3xl">
+          {item.value}
+        </p>
+        <p>{item.description}</p>
+      </div>
+    ))
+  }
+</div>

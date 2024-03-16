@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "name": "Acitron D",
+      "subtitle": "Vitaminas y Minerales",
+      "properties": [
+        "Complemento de Vitaminas y Minerales.",
+        "Coayudante para el Sistema Inmunológico.",
+        "Recomendado para Suplementar una excelente Nutrición."
+      ],
+      "image": "/images/acitron-d.jpg"
+    },
+    {
+      "name": "Magnesio",
+      "subtitle": "Mineral esencial para el cuerpo",
+      "properties": [
+        "Regula la función de los músculos y el sistema nervioso.",
+        "Regula los niveles de azúcar en la sangre y la presión sanguínea.",
+        "Ayuda a formar proteína, masa ósea."
+      ],
+      "image": "/images/magnesio.jpg"
+    },
+    {
+      "name": "Colageno",
+      "subtitle": "Planta con múltiples beneficios",
+      "properties": [
+        "Fortalece las articulaciones.",
+        "Coadyuvante para la firmeza y textura de la piel.",
+        "Coadyuvante en las mejoras de densidad ósea.",
+        "Coadyuvante en la flexibilidad de los tejidos."
+      ],
+      "image": "/images/colageno.jpg"
+    },
+    {
+      "name": "Lecitina de Soya",
+      "subtitle": "Fosfolípido natural con múltiples beneficios",
+      "properties": [
+        "Favorece la circulación de la sangre previniendo coágulos de sangre.",
+        "Previene la aparición de cálculos biliares.",
+        "Mejora las capacidades cerebrales como la memoria y la concentración."
+      ],
+      "image": "/images/lecitina.jpg"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+---
+const { name, testimonial, position, image } = Astro.props;
+import { Icon } from "astro-icon/components";
+---
+
+<div class="relative">
+  <div
+    class="bg-blue-800 text-white text-center rounded-3xl p-4 flex flex-col items-center"
+  >
+    <Icon
+      class="absolute -translate-y-11 size-16 text-amber-400"
+      name="quote-left-solid"
+    />
+    <p class="text-pretty mb-4 mt-8 italic">
+      {testimonial}
+    </p>
+    <h5 class="text-xl font-bold text-amber-400">{position}</h5>
+    <h6 class="mb-16 font-bold">{name}</h6>
+    <img
+      class="absolute top-[80%] rounded-full size-32"
+      src={image}
+      alt={"image of " + name}
+    />
+  </div>
+</div>

@@ -1,0 +1,23 @@
+---
+import "../styles/globals.css";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="/fonts/leckerli-one-latin-400-normal.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <title>{title}</title>
+  </head>
+
+  <body class="container mx-auto px-20 text-blue-950">
+    <slot />
+  </body>
+</html>
